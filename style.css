@@ -1,0 +1,38 @@
+body{
+    background: #c0d8cc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 90%;
+    border: ridge;
+    padding: 50px;
+    margin: 0 auto;
+    font-size: 16px;
+    border-collapse: collapse;
+    letter-spacing: 0.7 !important;
+    background: whitesmoke;
+}
+
+td{
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: system-ui;
+}
